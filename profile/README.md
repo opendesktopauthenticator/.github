@@ -18,7 +18,7 @@ An authenticator holds sensitive account information. Read our [security policy]
 
 The project currently has one maintainer, [@The1-Master](https://github.com/The1-Master), with MASTERPANEL LLC as the accountable publisher. Our public source, release checksums, signatures, and build provenance let you inspect the project and verify downloads; they are not a substitute for an independent security audit.
 
-Direct Windows downloads currently do not carry an Authenticode code-signing certificate. The Microsoft Store package is signed through the Store. See the [download verification guide](https://opendesktopauthenticator.com/verify) for the checks available for each channel.
+Starting with v1.5.1, Windows downloads from GitHub are Authenticode-signed by **MASTERPANEL LLC** and timestamped using **Azure Artifact Signing**. The existing v1.5.0 assets are unchanged and its Windows executables remain unsigned. Signing identifies the publisher and helps detect changes to signed files; SmartScreen may still warn. Linux downloads are not platform code-signed; use the signed checksum list and build provenance to verify them. The Microsoft Store package is signed through the Store and remains a separate distribution channel. See the [download verification guide](https://opendesktopauthenticator.com/verify) for the checks available for each channel.
 
 ## Contact and contribute
 
